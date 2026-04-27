@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Menu, X, Instagram } from "lucide-react";
+import logoBlack from "../../assets/BLACK PNG.png";
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -26,21 +27,26 @@ export function Navbar() {
     <header
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
         isScrolled
-          ? "bg-black/85 backdrop-blur-md py-4 shadow-[0_10px_30px_rgba(0,0,0,0.35)] border-b border-white/5"
-          : "bg-transparent py-6"
+          ? "bg-black/85 backdrop-blur-md py-2 md:py-3 shadow-[0_10px_30px_rgba(0,0,0,0.35)] border-b border-white/5"
+          : "bg-transparent py-4 md:py-6"
       }`}
     >
       <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
         <a
           href="#home"
-          className="leading-none text-[color:var(--mm-gold)] max-w-[70vw] md:max-w-none"
+          aria-label="Go to home"
+          className="leading-none max-w-[70vw] md:max-w-none"
         >
-          <span className="block font-['Great_Vibes'] text-[28px] leading-none md:text-4xl tracking-wide whitespace-nowrap">
-            Magical Moments
-          </span>
-          <span className="mt-1 block font-['Playfair_Display'] text-[9px] md:text-xs text-[color:var(--mm-gold)] tracking-[0.35em] md:tracking-[0.55em] uppercase whitespace-nowrap">
-            BY — JAY AHUJA
-          </span>
+          <img
+            src={logoBlack}
+            alt="Magical Moments by Jay Ahuja"
+            className={`block w-auto object-contain transition-[height] duration-300 ${
+              isScrolled
+                ? "h-12 md:h-14 max-w-[300px] md:max-w-[340px]"
+                : "h-16 md:h-20 max-w-[360px] md:max-w-[440px]"
+            }`}
+            loading="eager"
+          />
         </a>
 
         {/* Desktop Nav */}
