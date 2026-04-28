@@ -10,6 +10,19 @@
     </head>
 
     <body>
+      <!-- Netlify Forms: ensure form is detectable at build time -->
+      <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" hidden>
+        <input type="hidden" name="form-name" value="contact" />
+        <input name="bot-field" />
+        <input type="text" name="name" />
+        <input type="tel" name="phone" />
+        <input type="email" name="email" />
+        <select name="eventType"></select>
+        <input type="date" name="date" />
+        <input type="text" name="location" />
+        <textarea name="message"></textarea>
+      </form>
+
       <div id="root"></div>
       <script type="module" src="/src/main.tsx"></script>
     </body>
