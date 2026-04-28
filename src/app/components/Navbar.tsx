@@ -39,7 +39,7 @@ export function Navbar() {
         >
           <img
             src={logoBlack}
-            alt="Magical Moments by Jay Ahuja"
+            alt="Magical Moments by Jai Ahuja"
             className={`block w-auto object-contain transition-[height] duration-300 ${
               isScrolled
                 ? "h-12 md:h-14 max-w-[300px] md:max-w-[340px]"

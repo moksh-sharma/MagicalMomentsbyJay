@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "motion/react";
 import { Camera, Film, Sparkles } from "lucide-react";
+import aboutPortrait from "../../assets/IMG_0077.PNG";
 
 export function About() {
   const highlights = [
@@ -26,7 +27,7 @@ export function About() {
         >
           <div className="relative aspect-[4/5] w-full max-w-md mx-auto z-10 p-4 border border-[color:var(--mm-gold)]/30 bg-black/50 backdrop-blur-sm shadow-2xl">
             <img
-              src="https://images.unsplash.com/photo-1729347917808-e3e35a462fec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBncm9vbXxlbnwxfHx8fDE3NzcyNzg3Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080"
+              src={aboutPortrait}
               alt="Jai Ahuja - Photographer"
               className="w-full h-full object-cover filter grayscale hover:grayscale-0 transition-all duration-700"
             />

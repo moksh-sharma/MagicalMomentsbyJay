@@ -1,5 +1,6 @@
 import React from "react";
 import { Instagram, MessageCircle, Phone, Mail } from "lucide-react";
+import logoBlack from "../../assets/BLACK PNG.png";
 
 export function Footer() {
   const quickLinks = [
@@ -26,9 +27,17 @@ export function Footer() {
           
           {/* Brand Col */}
           <div className="col-span-1 lg:col-span-1">
-            <a href="#home" className="text-2xl font-['Playfair_Display'] font-semibold tracking-wider text-[color:var(--mm-gold)] block mb-6">
-              Magical Moments
-              <span className="block text-sm italic font-light text-white/70 mt-1">by Jay</span>
+            <a
+              href="#home"
+              aria-label="Go to home"
+              className="block mb-6 leading-none"
+            >
+              <img
+                src={logoBlack}
+                alt="Magical Moments by Jai Ahuja"
+                className="block h-14 md:h-16 w-auto max-w-[320px] object-contain"
+                loading="lazy"
+              />
             </a>
             <p className="text-gray-400 font-light text-sm leading-relaxed mb-8">
               Capturing love, rituals, and timeless memories through emotion-first storytelling and cinematic visuals.
@@ -115,13 +124,8 @@ export function Footer() {
         {/* Bottom */}
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-500 text-xs font-light tracking-wide">
-            &copy; {new Date().getFullYear()} Magical Moments by Jay Ahuja. All rights reserved.
+            &copy; {new Date().getFullYear()} Magical Moments by Jai Ahuja. All rights reserved.
           </p>
-          <div className="flex items-center gap-4 text-xs text-gray-500 font-light">
-            <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-            <span className="text-gray-700">|</span>
-            <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
-          </div>
         </div>
       </div>
     </footer>

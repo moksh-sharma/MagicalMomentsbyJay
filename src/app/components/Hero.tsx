@@ -38,7 +38,7 @@ export function Hero() {
             Magical Moments
           </span>
           <span className="mt-3 block font-['Playfair_Display'] text-[11px] md:text-sm text-[color:var(--mm-gold)] tracking-[0.35em] md:tracking-[0.55em] uppercase whitespace-nowrap">
-            BY — JAY AHUJA
+            BY — JAI AHUJA
           </span>
         </motion.h1>
 
