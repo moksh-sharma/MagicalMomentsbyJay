@@ -32,7 +32,7 @@ export function Contact() {
 
             <div className="space-y-6">
               <a
-                href="https://wa.me/1234567890"
+                href="https://wa.me/917988985121"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 group"
@@ -42,12 +42,12 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="text-sm uppercase tracking-widest text-gray-400 group-hover:text-white transition-colors">WhatsApp</h4>
-                  <p className="text-white text-lg font-light group-hover:text-[color:var(--mm-gold)] transition-colors">+91 98765 43210</p>
+                  <p className="text-white text-lg font-light group-hover:text-[color:var(--mm-gold)] transition-colors">+91 79889 85121</p>
                 </div>
               </a>
 
               <a
-                href="tel:+919876543210"
+                href="tel:+917988985121"
                 className="flex items-center gap-4 group"
               >
                 <div className="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center text-white group-hover:border-[color:var(--mm-gold)] group-hover:text-[color:var(--mm-gold)] group-hover:bg-[color:var(--mm-gold)]/10 transition-all duration-300">
@@ -55,7 +55,8 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="text-sm uppercase tracking-widest text-gray-400 group-hover:text-white transition-colors">Call Now</h4>
-                  <p className="text-white text-lg font-light group-hover:text-[color:var(--mm-gold)] transition-colors">+91 98765 43210</p>
+                  <p className="text-white text-lg font-light group-hover:text-[color:var(--mm-gold)] transition-colors">+91 79889 85121</p>
+                  <p className="text-gray-400 text-sm font-light leading-tight">Alternate: +91 83988 41118</p>
                 </div>
               </a>
 

@@ -43,7 +43,7 @@ export function Footer() {
                 <Instagram size={18} />
               </a>
               <a
-                href="https://wa.me/1234567890"
+                href="https://wa.me/917988985121"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-gray-400 hover:text-[color:var(--mm-gold)] hover:border-[color:var(--mm-gold)] transition-all duration-300"
@@ -95,15 +95,18 @@ export function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-gray-400 text-sm font-light">
                 <Phone size={16} className="text-[color:var(--mm-gold)] mt-1 flex-shrink-0" />
-                <a href="tel:+919876543210" className="hover:text-[color:var(--mm-gold)] transition-colors">+91 98765 43210</a>
+                <div className="flex flex-col">
+                  <a href="tel:+917988985121" className="hover:text-[color:var(--mm-gold)] transition-colors">+91 79889 85121</a>
+                  <a href="tel:+918398841118" className="hover:text-[color:var(--mm-gold)] transition-colors">+91 83988 41118</a>
+                </div>
               </li>
               <li className="flex items-start gap-3 text-gray-400 text-sm font-light">
                 <MessageCircle size={16} className="text-[color:var(--mm-gold)] mt-1 flex-shrink-0" />
-                <a href="https://wa.me/1234567890" className="hover:text-[color:var(--mm-gold)] transition-colors">+91 98765 43210 (WhatsApp)</a>
+                <a href="https://wa.me/917988985121" className="hover:text-[color:var(--mm-gold)] transition-colors">+91 79889 85121 (WhatsApp)</a>
               </li>
               <li className="flex items-start gap-3 text-gray-400 text-sm font-light">
                 <Mail size={16} className="text-[color:var(--mm-gold)] mt-1 flex-shrink-0" />
-                <a href="mailto:info@magicalmoments.com" className="hover:text-[color:var(--mm-gold)] transition-colors">info@magicalmoments.com</a>
+                <a href="mailto:momentsmagical940@gmail.com" className="hover:text-[color:var(--mm-gold)] transition-colors">momentsmagical940@gmail.com</a>
               </li>
             </ul>
           </div>
